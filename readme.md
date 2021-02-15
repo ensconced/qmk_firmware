@@ -1,5 +1,16 @@
 # Quantum Mechanical Keyboard Firmware
 
+# Joe's notes
+
+to flash a new keyboard...
+
+```
+qmk compile
+# plug in the keyboard via usbc, with the two halves connected via trrs
+qmk flash
+# press the reset button
+```
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/qmk)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)
@@ -10,7 +21,7 @@ This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github
 
 ## Documentation
 
-* [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
+-   [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
 
 The docs are powered by [VitePress](https://vitepress.dev/). They are also viewable offline; see [Previewing the Documentation](https://docs.qmk.fm/#/contributing?id=previewing-the-documentation) for more details.
 
@@ -18,12 +29,12 @@ You can request changes by making a fork and opening a [pull request](https://gi
 
 ## Supported Keyboards
 
-* [Planck](/keyboards/planck/)
-* [Preonic](/keyboards/preonic/)
-* [ErgoDox EZ](/keyboards/ergodox_ez/)
-* [Clueboard](/keyboards/clueboard/)
-* [Cluepad](/keyboards/clueboard/17/)
-* [Atreus](/keyboards/atreus/)
+-   [Planck](/keyboards/planck/)
+-   [Preonic](/keyboards/preonic/)
+-   [ErgoDox EZ](/keyboards/ergodox_ez/)
+-   [Clueboard](/keyboards/clueboard/)
+-   [Cluepad](/keyboards/clueboard/17/)
+-   [Atreus](/keyboards/atreus/)
 
 The project also includes community support for [lots of other keyboards](/keyboards/).
 
