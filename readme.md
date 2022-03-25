@@ -5,8 +5,13 @@
 to flash a new keyboard...
 
 ```
+qmk clean
 qmk compile
 # plug in the keyboard via usbc, with the two halves connected via trrs
+qmk flash
+# press the reset button
+
+# then plug in the other half of the keyboard and do the same:
 qmk flash
 # press the reset button
 ```
