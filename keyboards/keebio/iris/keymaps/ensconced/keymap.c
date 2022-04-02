@@ -48,6 +48,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                     _______, MO(COMMAND_AND_CONTROL_LAYER), _______,                   _______, _______, _______
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
+
+
+  // LCG_SWP effectively moves into "linux mode". LCG_NRM moves back into "macos mode".
+  // The general idea is to be able to use consistent chords for copy/paste etc between OS's.
+
   [COMMAND_AND_CONTROL_LAYER] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      LCG_SWP, LCG_NRM, _______, _______, _______, _______,                            _______, _______, _______, _______, _______, _______,
