@@ -2,7 +2,11 @@
 
 # Joe's notes
 
-to flash a new keyboard...
+To flash a new keyboard...
+
+First start a shell with all the dependencies available, by running `nix develop`.
+
+Then in that shell, run:
 
 ```
 qmk clean
