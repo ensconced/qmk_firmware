@@ -9,8 +9,9 @@ First start a shell with all the dependencies available, by running `nix develop
 Then in that shell, run:
 
 ```
+make git-submodule
 qmk clean
-qmk compile
+qmk compile --keymap ensconced --keyboard keebio/iris/rev4
 # plug in the keyboard via usbc, with the two halves connected via trrs
 qmk flash
 # press the reset button
