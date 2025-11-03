@@ -13,7 +13,7 @@ make git-submodule
 qmk clean
 qmk compile --keymap ensconced --keyboard keebio/iris/rev4
 # plug in the keyboard via usbc, with the two halves connected via trrs
-qmk flash
+sudo qmk flash --keymap <chosen keymap> --keyboard keebio/iris/rev4
 # press the reset button
 
 # then plug in the other half of the keyboard and do the same:
