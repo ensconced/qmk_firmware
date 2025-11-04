@@ -1,6 +1,18 @@
 # Quantum Mechanical Keyboard Firmware
 
-# Joe's notes
+Note: By far the easiest way to use QMK is with the online QMK configurator tool. From that you can export json
+which can be used directly with the qmk CLI to flash your keyboard. The current version of my json can be found at
+keebio-layout.json.
+
+To flash it:
+
+```
+sudo qmk flash --keyboard keebio/iris/rev4 keebio-layout.json
+```
+
+
+
+# Joe's old notes - you should probably ignore these and just use QMK configurator instead, as detailed above
 
 To flash a new keyboard...
 
