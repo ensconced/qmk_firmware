@@ -7,6 +7,7 @@ keebio-layout.json.
 To flash it:
 
 ```
+nix develop
 sudo qmk flash --keyboard keebio/iris/rev4 keebio-layout.json
 ```
 
